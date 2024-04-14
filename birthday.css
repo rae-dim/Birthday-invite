@@ -40,11 +40,35 @@
     .image-bg {
         display: none;
     }
+    .image-bg2 {
+        opacity: 0.5;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 0;
+    }
+
 }
 
 @media (min-width: 1180px){
     .y2k-content {
         color: rgba(24, 1, 17)
+    }
+    #details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-top: 3rem;
+        gap: 4rem;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    .image-bg2{
+        display: none;
     }
 }
 
@@ -69,22 +93,14 @@ body {
     background-color: var(--clr-bgr);
     margin: 0;
     font-family: var(--ff-primary);
-    color: var(--clr-light);
+    color: rgba(24, 1, 17);
     display: block;
     padding: 3rem;
 }
 
 #details {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    padding-top: 3rem;
-    gap: 4rem;
-    text-align: center;
-    line-height: 1.5rem;
+    flex-flow: row;
 }
 
 #main {
