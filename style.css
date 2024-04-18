@@ -1,21 +1,30 @@
+:root {
+   
+
+    --clr-light: rgb(241, 115, 168);
+    --clr-bgr: #ac0b4e;
+    --clr-accent1: #1a010b;
+    --clr-accent2: #f5f2f7;
+    --clr-accent3: #fdf5fc;
+}
+
 #outershell {
     height: 590px;
     width: 400px;
     position: relative; 
-    background: #fc65bd;
-    background-image: url("images/IMG_3516.jpg"); 
+    background: var(--clr-bgr);
+    background-image: url("images/blackpink.jpg"); 
     margin:auto;
     box-shadow: 10px 10px 10px #CCCCCC;
 }
 
 #y2k-wrap {
-    background: #f13ea1;
+    background-image: url("images/dark-smoke.jpg");
     border-radius: 50px;
-    border: dotted 10px #ff9114;
     box-shadow: 2px 2px 10px;
     position: absolute;
     top: 100px;
-    margin-left: 40px;
+    margin-left: 50px;
     width: 300px;
     height: 400px;
     text-align: center;
@@ -31,25 +40,25 @@ ul{
 
 #intro {
     font-size: 25px;
-    color:#ff9114;
+    color: var(--clr-light);
     text-shadow: 5px 2px 10px black;
 }
 
   #names{
-    font-size: 40px;
-    color: #3cf123;
+    font-size: 30px;
+    color: rgb(241, 115, 168);
     text-shadow: 5px 2px 10px black;
   }
 
   #details{
-    color: #f9f9f9;
-    font-size: 12px;
-    font-weight: 500;
+    color: var(--clr-bgr);
+    font-size: 15px;
+    font-weight: 600;
   }
   
   #date{
     text-shadow: 5px 2px 10px black;
-    color: #ff9114;
+    color: var(--clr-accent1);
     font-size: 30px;
     padding-bottom: 5px;
   }
@@ -63,10 +72,11 @@ ul{
 
   a {
     list-style: none;
-    color: var(--clr-accent2)
+    color: var(--clr-bgr)
 
 }
 
 #whiteText{
-    color: #bb0a86;
+    color: var(--clr-light);
+    font-size: 12px;
 }

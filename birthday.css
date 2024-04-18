@@ -4,18 +4,7 @@
     box-sizing: border-box;
 }
 
-:root {
-    --ff-primary: "Ultra", serif;
-   /*  --ff-secondary: ; */
 
-    --fw-reg: 800;
-    --fw-bold: 800;
-
-    --clr-light: #db2662;
-    --clr-bgr: #f799cc;
-    --clr-accent1: #D17E0A;
-    --clr-accent2: #681191;
-    --clr-accent3: #5CDF34;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
