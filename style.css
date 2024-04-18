@@ -3,21 +3,21 @@
     width: 400px;
     position: relative; 
     background: #fc65bd;
-    background-image: url("images/y2k-port.JPG"); 
+    background-image: url("images/IMG_3516.jpg"); 
     margin:auto;
     box-shadow: 10px 10px 10px #CCCCCC;
 }
 
 #y2k-wrap {
     background: #f13ea1;
-    border-radius: 100px;
-    border: dotted 2px #ff9114;
+    border-radius: 50px;
+    border: dotted 10px #ff9114;
     box-shadow: 2px 2px 10px;
     position: absolute;
-    top: 200px;
-    margin-left: 75px;
-    width: 250px;
-    height: 300px;
+    top: 100px;
+    margin-left: 40px;
+    width: 300px;
+    height: 400px;
     text-align: center;
 }
 
@@ -25,23 +25,32 @@ ul{
     margin-top: 60px;
     list-style: none;
     padding: 0px;
-    font-family: "Ultra", serif
+    font-family: "Ultra", serif;
+    font-weight: 800;
   }
 
+#intro {
+    font-size: 25px;
+    color:#ff9114;
+    text-shadow: 5px 2px 10px black;
+}
+
   #names{
-    font-size: 15px;
+    font-size: 40px;
     color: #3cf123;
     text-shadow: 5px 2px 10px black;
   }
 
   #details{
     color: #f9f9f9;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
   }
   
   #date{
-    color: #e26d0c;
-    font-size: 20px;
+    text-shadow: 5px 2px 10px black;
+    color: #ff9114;
+    font-size: 30px;
     padding-bottom: 5px;
   }
 
@@ -51,3 +60,9 @@ ul{
     z-index: 1;
     opacity: 0.65;
   } 
+
+  a {
+    list-style: none;
+    color: var(--clr-accent2)
+
+}
