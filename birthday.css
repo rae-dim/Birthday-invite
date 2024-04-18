@@ -5,7 +5,7 @@
 }
 
 :root {
-    --ff-primary: "Workbench", sans-serif;;
+    --ff-primary: "Ultra", serif;
    /*  --ff-secondary: ; */
 
     --fw-reg: 800;
@@ -55,6 +55,7 @@
     .y2k-content {
         color: rgba(24, 1, 17)
     }
+
     #details {
         display: flex;
         flex-direction: row;
@@ -67,8 +68,22 @@
         text-align: center;
         line-height: 1.5rem;
     }
+
     .image-bg2{
         display: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main * {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -102,24 +117,32 @@ body {
 
 #details {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
 }
 
-#main {
+/* .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}  */
 
-#main * {
+.birth * {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+} 
+
+#date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
 }
 
 a {
@@ -127,3 +150,10 @@ a {
     color: var(--clr-accent2)
 }
 
+.subtext {
+ 
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;     
+}
+  
